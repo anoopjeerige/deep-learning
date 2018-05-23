@@ -14,7 +14,9 @@ This repository contains notebooks and python modules implemented in Tensorflow 
   ```
   ./train.py
   ```
-
+  #### Pre-Trained Model and Checkpoint
+  Download the pre-trained model and tensorflow checkpoint files from https://drive.google.com/open?id=1yPP3gdC8dQQEG4MLNjsxEnZWg28-d83M
+  
 - Policy Gradient
   Implementation of A3C (Asynchronous Advantage Actor-Critic)
 
@@ -28,7 +30,9 @@ This repository contains notebooks and python modules implemented in Tensorflow 
   ```
   tensorboard --logdir=/tmp/a3c
   ```
-
+  #### Pre-Trained Model and Checkpoint
+  Download the pre-trained model and tensorflow checkpoint files from https://drive.google.com/open?id=11Y63jXjLj_M4dozrVT2WUbPEbDDICvTI
+  
   #### Components
 
   - [`train.py`](train.py) contains the main method to start training.
