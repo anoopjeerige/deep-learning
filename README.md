@@ -7,7 +7,7 @@ This repository contains notebooks and python modules implemented in Tensorflow 
  The Deep Learning concepts have been mainly taken from the book "Hands-On Machine Learning with Scikit-Learn and TensorFlow" by Aurélien Géron.
  The Reinforcement Learning alogrithms have been mainly taken from reinforcement-learning repo by Denny Britz.
  
-## Reinforcement Learning
+## Reinforcement Learning (Environment - Atari Breakout)
 - Q-Learning
   Implementation of Deep Q-Learning
   #### Running
@@ -39,6 +39,10 @@ This repository contains notebooks and python modules implemented in Tensorflow 
   - [`estimators.py`](estimators.py) contains the Tensorflow graph definitions for the Policy and Value networks.
   - [`worker.py`](worker.py) contains code that runs in each worker threads.
   - [`policy_monitor.py`](policy_monitor.py) contains code that evaluates the policy network by running an episode and saving rewards to Tensorboard.
+
+## Gameplay
+Video of the trained agents playing Atari breakout
+https://drive.google.com/open?id=14msaniL7UggcyLN8vc75QXGdL1nCvyyO
 
 ## Reference:
  - Book : Gron, A. (2017). Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems. O'Reilly Media, Inc.
